@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<ScrollView android:id="@+id/ScrollView01"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent">
+	<TableLayout android:id="@+id/tableId"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TableRow>
+			<TextView android:id="@+id/TitleText"
+				android:text="Shooting of wild boars to begin shortly"
+				android:textStyle="bold"
+				android:gravity="center_horizontal"
+				android:textColor ="#00ffff"
+				android:paddingBottom = "10dip"
+				android:layout_width="wrap_content" android:layout_height="fill_parent">
+			</TextView>`
+		</TableRow>
+		<TableRow>
+			<ImageView android:id="@+id/test_image" android:src="@drawable/titleimage"
+				android:layout_width="wrap_content" android:layout_height="fill_parent" />
+		</TableRow>
+		<TableRow>
+			<TextView android:id="@+id/DescText"
+				android:text="Shooting of wild boars causing continuous crop loss will begin shortly with the Forest Department framing guidelines for the same. The guidelines will be issued this week. It will be restricted to the districts of Wayanad, Malappuram, Palakkad, Idukki, and Pathanamthitta districts for one year on an experimental basis. Though an expert committee constituted by the previous government had recommended it only in five districts, a government order issued last month was...
+			"
+			android:textStyle="normal"
+				android:gravity="fill_vertical"
+				android:textColor ="#ffff00"
+				android:paddingTop = "10dip"
+				android:paddingBottom = "10dip"
+				android:layout_width="wrap_content" android:layout_height="fill_parent">
+			</TextView>
+		</TableRow>
+		<TableRow>
+			<TextView android:id="@+id/LinkText"
+				android:text="http://article.wn.com/view/2011/07/05/Shooting_of_wild_boars_to_begin_shortly/"
+				android:textStyle="italic"
+				android:gravity="center_horizontal"
+				android:textColor ="#ff00ff"
+				android:paddingTop = "10dip"
+				android:paddingBottom = "10dip"
+				android:layout_width="wrap_content" android:layout_height="fill_parent">
+			</TextView>
+		</TableRow>
+	</TableLayout>
+	</ScrollView>
+</LinearLayout>
